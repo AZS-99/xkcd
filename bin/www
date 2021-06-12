@@ -5,6 +5,7 @@
  */
 
 var app = require('../app');
+const database = require('../models/database')
 var debug = require('debug')('xkcd:server');
 var http = require('http');
 
@@ -81,7 +82,9 @@ function onError(error) {
  * Event listener for HTTP server "listening" event.
  */
 
-function onListening() {
+async function onListening() {
+
+  await database.initialise()
   var addr = server.address();
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
