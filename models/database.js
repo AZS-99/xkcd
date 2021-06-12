@@ -18,11 +18,37 @@ module.exports.initialise = async () => {
 }
 
 
-database.define('views', {
+database.define('pageviews', {
     id: {
         type: Sequelise.INTEGER,
         primaryKey: true
     },
-    views: 'INT DEFAULT 0'
+    view_count: 'INT DEFAULT 0'
+}, {
+    timestamps: false
 })
+
+
+module.exports.record_view = async (id) => {
+    try {
+        return await database.query(`
+            INSERT INTO pageviews 
+            VALUES (:id, '1')
+            ON CONFLICT (id) DO UPDATE
+            SET view_count = pageviews.view_count + 1
+            RETURNING view_count
+        `, {
+            replacements: {
+                id: id
+            },
+            returning: true,
+            plain: true
+        })
+    } catch (e) {
+        notifier.notify({
+            title: 'ERROR recording the view',
+            message: e.toString()
+        })
+    }
+}
 
