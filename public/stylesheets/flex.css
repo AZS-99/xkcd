@@ -1,0 +1,2686 @@
+*.aStart {
+    align-self: self-start;
+}
+
+*.jStart {
+    justify-self: self-start;
+}
+
+*.flex {
+    display: flex;
+}
+
+*.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+*.flex-stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+*.flex-row-stretch {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-stretch-jStart {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+*.flex-row-jStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+*.flex-row-stretch-jStart {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-stretch-jCentre {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+*.flex-row-jCentre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+*.flex-row-stretch-jCentre {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-stretch-jEnd {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+*.flex-row-jEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+*.flex-row-stretch-jEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-stretch-around {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+*.flex-row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+*.flex-row-stretch-around {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-stretch-between {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+*.flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+*.flex-row-stretch-between {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+*.flex-aStart {
+    display: flex;
+    align-items: flex-start;
+}
+
+*.flex-row-aStart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aStart-jStart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+*.flex-row-jStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+*.flex-row-aStart-jStart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aStart-jCentre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+*.flex-row-jCentre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+*.flex-row-aStart-jCentre {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aStart-jEnd {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+*.flex-row-jEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+*.flex-row-aStart-jEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aStart-around {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+*.flex-row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+*.flex-row-aStart-around {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aStart-between {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+*.flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+*.flex-row-aStart-between {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+*.flex-aEnd {
+    display: flex;
+    align-items: flex-end;
+}
+
+*.flex-row-aEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aEnd-jStart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+*.flex-row-jStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+*.flex-row-aEnd-jStart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aEnd-jCentre {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+*.flex-row-jCentre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+*.flex-row-aEnd-jCentre {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aEnd-jEnd {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+*.flex-row-jEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+*.flex-row-aEnd-jEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aEnd-around {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+*.flex-row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+*.flex-row-aEnd-around {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aEnd-between {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+*.flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+*.flex-row-aEnd-between {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+*.flex-aCentre {
+    display: flex;
+    align-items: center;
+}
+
+*.flex-row-aCentre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aCentre-jStart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+*.flex-row-jStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+*.flex-row-aCentre-jStart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aCentre-jCentre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*.flex-row-jCentre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+*.flex-row-aCentre-jCentre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aCentre-jEnd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+*.flex-row-jEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+*.flex-row-aCentre-jEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aCentre-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*.flex-row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+*.flex-row-aCentre-around {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aCentre-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*.flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+*.flex-row-aCentre-between {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*.flex-baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+*.flex-row-baseline {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-baseline-jStart {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+*.flex-row-jStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+*.flex-row-baseline-jStart {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-baseline-jCentre {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+*.flex-row-jCentre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+*.flex-row-baseline-jCentre {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-baseline-jEnd {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+*.flex-row-jEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+*.flex-row-baseline-jEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-baseline-around {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+*.flex-row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+*.flex-row-baseline-around {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-baseline-between {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+*.flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+*.flex-row-baseline-between {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+*.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+*.flex-stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+*.flex-col-stretch {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-stretch-jStart {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+*.flex-col-jStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+*.flex-col-stretch-jStart {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-stretch-jCentre {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+*.flex-col-jCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+*.flex-col-stretch-jCentre {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-stretch-jEnd {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+*.flex-col-jEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+*.flex-col-stretch-jEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-stretch-around {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+*.flex-col-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+*.flex-col-stretch-around {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-stretch-between {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+*.flex-col-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+*.flex-col-stretch-between {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+*.flex-aStart {
+    display: flex;
+    align-items: flex-start;
+}
+
+*.flex-col-aStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aStart-jStart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+*.flex-col-jStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+*.flex-col-aStart-jStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aStart-jCentre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+*.flex-col-jCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+*.flex-col-aStart-jCentre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aStart-jEnd {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+*.flex-col-jEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+*.flex-col-aStart-jEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aStart-around {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+*.flex-col-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+*.flex-col-aStart-around {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aStart-between {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+*.flex-col-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+*.flex-col-aStart-between {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+*.flex-aEnd {
+    display: flex;
+    align-items: flex-end;
+}
+
+*.flex-col-aEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aEnd-jStart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+*.flex-col-jStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+*.flex-col-aEnd-jStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aEnd-jCentre {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+*.flex-col-jCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+*.flex-col-aEnd-jCentre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aEnd-jEnd {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+*.flex-col-jEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+*.flex-col-aEnd-jEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aEnd-around {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+*.flex-col-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+*.flex-col-aEnd-around {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aEnd-between {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+*.flex-col-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+*.flex-col-aEnd-between {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+*.flex-aCentre {
+    display: flex;
+    align-items: center;
+}
+
+*.flex-col-aCentre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aCentre-jStart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+*.flex-col-jStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+*.flex-col-aCentre-jStart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aCentre-jCentre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*.flex-col-jCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+*.flex-col-aCentre-jCentre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aCentre-jEnd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+*.flex-col-jEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+*.flex-col-aCentre-jEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aCentre-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*.flex-col-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+*.flex-col-aCentre-around {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aCentre-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*.flex-col-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+*.flex-col-aCentre-between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*.flex-baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+*.flex-col-baseline {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-baseline-jStart {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+*.flex-col-jStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+*.flex-col-baseline-jStart {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-baseline-jCentre {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+*.flex-col-jCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+*.flex-col-baseline-jCentre {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-baseline-jEnd {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+*.flex-col-jEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+*.flex-col-baseline-jEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-baseline-around {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+*.flex-col-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+*.flex-col-baseline-around {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-baseline-between {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+*.flex-col-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+*.flex-col-baseline-between {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+*.flex-rRow {
+    display: flex;
+    flex-direction: row-reverse;
+}
+*.flex-stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+*.flex-rRow-stretch {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-stretch-jStart {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-stretch-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-stretch-jCentre {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+*.flex-rRow-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+*.flex-rRow-stretch-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-stretch-jEnd {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-stretch-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-stretch-around {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+*.flex-rRow-around {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rRow-stretch-around {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-stretch-between {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+*.flex-rRow-between {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rRow-stretch-between {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+*.flex-aStart {
+    display: flex;
+    align-items: flex-start;
+}
+
+*.flex-rRow-aStart {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aStart-jStart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-aStart-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aStart-jCentre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+*.flex-rRow-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+*.flex-rRow-aStart-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aStart-jEnd {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-aStart-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aStart-around {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+*.flex-rRow-around {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rRow-aStart-around {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aStart-between {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+*.flex-rRow-between {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rRow-aStart-between {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+*.flex-aEnd {
+    display: flex;
+    align-items: flex-end;
+}
+
+*.flex-rRow-aEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aEnd-jStart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-aEnd-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aEnd-jCentre {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+*.flex-rRow-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+*.flex-rRow-aEnd-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aEnd-jEnd {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-aEnd-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aEnd-around {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+*.flex-rRow-around {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rRow-aEnd-around {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aEnd-between {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+*.flex-rRow-between {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rRow-aEnd-between {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+*.flex-aCentre {
+    display: flex;
+    align-items: center;
+}
+
+*.flex-rRow-aCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aCentre-jStart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-aCentre-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aCentre-jCentre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*.flex-rRow-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+*.flex-rRow-aCentre-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aCentre-jEnd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-aCentre-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aCentre-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*.flex-rRow-around {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rRow-aCentre-around {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aCentre-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*.flex-rRow-between {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rRow-aCentre-between {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*.flex-baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+*.flex-rRow-baseline {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-baseline-jStart {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rRow-baseline-jStart {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-baseline-jCentre {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+*.flex-rRow-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+*.flex-rRow-baseline-jCentre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-baseline-jEnd {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rRow-baseline-jEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-baseline-around {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+*.flex-rRow-around {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rRow-baseline-around {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-baseline-between {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+*.flex-rRow-between {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rRow-baseline-between {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+*.flex-rCol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+*.flex-stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+*.flex-rCol-stretch {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-stretch-jStart {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-stretch-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-stretch-jCentre {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+*.flex-rCol-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+*.flex-rCol-stretch-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-stretch-jEnd {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-stretch-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-stretch-around {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+*.flex-rCol-around {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rCol-stretch-around {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-stretch-between {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+*.flex-rCol-between {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rCol-stretch-between {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+*.flex-aStart {
+    display: flex;
+    align-items: flex-start;
+}
+
+*.flex-rCol-aStart {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aStart-jStart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-aStart-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aStart-jCentre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+*.flex-rCol-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+*.flex-rCol-aStart-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aStart-jEnd {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-aStart-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aStart-around {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+*.flex-rCol-around {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rCol-aStart-around {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aStart-between {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+*.flex-rCol-between {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rCol-aStart-between {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+*.flex-aEnd {
+    display: flex;
+    align-items: flex-end;
+}
+
+*.flex-rCol-aEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aEnd-jStart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-aEnd-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aEnd-jCentre {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+*.flex-rCol-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+*.flex-rCol-aEnd-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aEnd-jEnd {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-aEnd-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aEnd-around {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+*.flex-rCol-around {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rCol-aEnd-around {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aEnd-between {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+*.flex-rCol-between {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rCol-aEnd-between {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+*.flex-aCentre {
+    display: flex;
+    align-items: center;
+}
+
+*.flex-rCol-aCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-aCentre-jStart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-aCentre-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-aCentre-jCentre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*.flex-rCol-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+*.flex-rCol-aCentre-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-aCentre-jEnd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-aCentre-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-aCentre-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*.flex-rCol-around {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rCol-aCentre-around {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-aCentre-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*.flex-rCol-between {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rCol-aCentre-between {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+*.flex-baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+*.flex-rCol-baseline {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+}
+
+*.flex-jStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*.flex-baseline-jStart {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+*.flex-rCol-baseline-jStart {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+*.flex-jCentre {
+    display: flex;
+    justify-content: center;
+}
+
+*.flex-baseline-jCentre {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+*.flex-rCol-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+*.flex-rCol-baseline-jCentre {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    justify-content: center;
+}
+
+*.flex-jEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*.flex-baseline-jEnd {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+*.flex-rCol-baseline-jEnd {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+*.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+*.flex-baseline-around {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+*.flex-rCol-around {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+*.flex-rCol-baseline-around {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+*.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+*.flex-baseline-between {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+*.flex-rCol-between {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+*.flex-rCol-baseline-between {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+
+/********************************************************************************************************************************************************
+ ********************************************************************************************************************************************************
+*********************************************************************************************************************************************************/
+
+
+*.grow {
+    flex-grow: 1;
+}
+
+*.grow-2 {
+    flex-grow: 2;
+}
+
+*.grow-3 {
+    flex-grow: 3;
+}
+
+*.grow-4 {
+    flex-grow: 4;
+}
+
+*.grow-5 {
+    flex-grow: 5;
+}
+
+*.grow-6 {
+    flex-grow: 6;
+}
+
+*.grow-7 {
+    flex-grow: 7;
+}
+
+*.grow-8 {
+    flex-grow: 8;
+}

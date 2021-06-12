@@ -1,2 +1,20 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+{{#with info}}
+    <p>Published on: {{day}}-{{month}}-{{year}}</p>
+{{/with}}
+
+<div class="flex-around">
+    <div>
+        <div class="p-1 flex-jCentre">
+            <a class="btn m-1" href="/{{decrement num}}">&#60; Previous</a>
+            <a class="btn m-1" href="/{{random}}">Surprise me!</a>
+            <a class="btn m-1" href="/{{increment num}}">&nbsp; Next &#62;</a>
+        </div>
+
+        <img src="data:image/png;base64,{{img}}", alt="{{info.alt}}"/>
+    </div>
+</div>
+
+{{#with info}}
+    <pre>{{transcript}}</pre>
+{{/with}}
+
