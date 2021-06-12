@@ -12,7 +12,7 @@ module.exports.initialise = async () => {
     } catch (e) {
         notifier.notify({
             title: 'Sync Error',
-            message: e.message()
+            message: e.toString()
         })
     }
 }
