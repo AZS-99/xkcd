@@ -1,5 +1,5 @@
 <div class="flex-between bg-blue p-1 txt-white">
-    <p class="B-xlg">Published on: {{info.day}}-{{info.month}}-{{info.year}}</p>
+    <p class="B-xlg flicker">{{info.day}}-{{info.month}}-{{info.year}}</p>
     <p class="B-xlg flicker">Visits: <span class="text-yellow">{{visits}}</span> </p>
 </div>
 
@@ -17,6 +17,9 @@
 </div>
 
 {{#with info}}
-    <pre>{{transcript}}</pre>
+    {{#if transcript}}
+        <p class="B-xlg txt-blue"><u>Transcript:</u></p>
+        <pre>{{transcript}}</pre>
+    {{/if}}
 {{/with}}
 

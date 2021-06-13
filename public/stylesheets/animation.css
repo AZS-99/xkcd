@@ -30,7 +30,8 @@
 
 
 @keyframes roulette-frames {
-    
+    0% {margin-top: 50%}
+    100% {margin-top: 100%}
 }
 
 
@@ -38,6 +39,10 @@
     animation: flicker-frames 3s infinite;
 }
 
+
+*.roulette {
+    animation: roulette-frames 2s infinite;
+}
 
 *.shake {
 

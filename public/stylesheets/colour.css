@@ -28,6 +28,11 @@
 }
 
 
+*.txt-blue {
+    color:  #428bca;
+}
+
+
 *.txt-green {
     color: #28a745;
 }
