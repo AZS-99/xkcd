@@ -1,6 +1,6 @@
-<div class="flex-between">
-    <p>Published on: {{info.day}}-{{info.month}}-{{info.year}}</p>
-    <p>Visits: {{visits}}</p>
+<div class="flex-between bg-blue p-1 txt-white">
+    <p class="B-xlg">Published on: {{info.day}}-{{info.month}}-{{info.year}}</p>
+    <p class="B-xlg flicker">Visits: <span class="text-yellow">{{visits}}</span> </p>
 </div>
 
 
@@ -8,11 +8,11 @@
     <div>
         <div class="p-1 flex-jCentre">
             <a class="btn m-1" href="/{{decrement num}}">&#60; Previous</a>
-            <a class="btn m-1" href="/{{random}}">Surprise me!</a>
+            <a class="btn m-1 shake" href="/{{random}}">Surprise me!</a>
             <a class="btn m-1" href="/{{increment num}}">&nbsp; Next &#62;</a>
         </div>
 
-        <img src="data:image/png;base64,{{img}}", alt="{{info.alt}}"/>
+        <img class="slide" src="data:image/png;base64,{{img}}" , alt="{{info.alt}}"/>
     </div>
 </div>
 

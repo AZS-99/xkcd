@@ -1,0 +1,45 @@
+*.bg-black {
+    background-color: black;
+}
+
+*.bg-blue {
+    background-color: #428bca;
+}
+
+*.bg-green {
+    background-color: #28a745;
+}
+
+*.bg-grey {
+    background-color: grey;
+}
+
+*.bg-red {
+    background-color: #dc3545;
+}
+
+*.bg-white {
+    background-color: white;
+}
+
+
+*.bg-amber {
+    background-color: #ffbf00;
+}
+
+
+*.txt-green {
+    color: #28a745;
+}
+
+*.txt-red {
+    color: #dc3545;
+}
+
+*.txt-white {
+    color: white;
+}
+
+*.text-yellow {
+    color: yellow;
+}

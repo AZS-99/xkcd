@@ -1,7 +1,9 @@
+@import "animation.css";
 @import "flex.css";
+@import "typography.css";
+@import "colour.css";
 
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -12,10 +14,20 @@ a {
 
 *.btn {
   padding: 0.5rem;
-  border: 1px solid;
   border-radius: 3px;
   text-decoration: none;
+  border: 1px solid #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
 }
+
+*.btn:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  color: #3498db;
+}
+
+
 
 *.p-1 {
   padding: 1rem;

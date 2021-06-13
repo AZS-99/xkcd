@@ -1,7 +1,7 @@
 const Sequelise = require('sequelize')
 const pg = require('pg')
 const notifier = require('node-notifier')
-pg.defaults.ssl = process.env.NODE_ENV === 'production'? {rejectUnauthorized: false} : true
+pg.defaults.ssl = process.env.NODE_ENV === 'production'? {rejectUnauthorized: false} : false
 
 const database = new Sequelise(process.env.DATABASE_URL)
 
