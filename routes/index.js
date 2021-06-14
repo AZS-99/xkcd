@@ -4,6 +4,7 @@ const fetch = require('../middlewares/fetch')
 const database = require('../models/database')
 const notifier = require('node-notifier')
 
+
 /* GET home page. */
 router.get('/', async (req, res) => {
   const json = await fetch.json('https://xkcd.com/info.0.json ')
@@ -25,7 +26,10 @@ router.get('/:num', async (req, res) => {
       num: req.params.num
     })
   } catch (e) {
-
+      notifier.notify({
+        title: 'Error loading page',
+        message: e.toString()
+      })
   }
 
 })
