@@ -6,7 +6,8 @@ const notifier = require('node-notifier')
 
 /* GET home page. */
 router.get('/', async (req, res) => {
-  res.send(await fetch.json('https://xkcd.com/614/info.0.json'))
+  const json = await fetch.json('https://xkcd.com/info.0.json ')
+  res.redirect('/' + json.num)
 });
 
 
