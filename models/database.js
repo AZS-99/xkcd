@@ -1,6 +1,5 @@
 const Sequelise = require('sequelize')
 const pg = require('pg')
-const notifier = require('node-notifier')
 pg.defaults.ssl = process.env.NODE_ENV === 'production'? {rejectUnauthorized: false} : false
 
 const database = new Sequelise(process.env.DATABASE_URL)
@@ -10,10 +9,7 @@ module.exports.initialise = async () => {
     try {
         await database.sync()
     } catch (e) {
-        notifier.notify({
-            title: 'Sync Error',
-            message: e.toString()
-        })
+        throw e
     }
 }
 
@@ -45,10 +41,7 @@ module.exports.record_view = async (id) => {
             plain: true
         })
     } catch (e) {
-        notifier.notify({
-            title: 'ERROR recording the view',
-            message: e.toString()
-        })
+        throw e
     }
 }
 

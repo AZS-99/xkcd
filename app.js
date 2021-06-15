@@ -23,7 +23,7 @@ app.engine('hbs', exphbs({
       return Number(num - 1)
     },
     random: () => {
-      return Math.floor(Math.random() * (2500 - 1) + 1)
+      return Math.floor(Math.random() * (2475 - 1) + 1)
     }
   }
 }))
